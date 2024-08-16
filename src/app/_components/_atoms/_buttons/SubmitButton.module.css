@@ -1,0 +1,18 @@
+.submitButton {
+    border: none;
+    outline: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: transparent;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    width: 20px;
+    height: 20px;
+
+    cursor: pointer;
+}
