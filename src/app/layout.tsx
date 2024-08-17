@@ -13,12 +13,14 @@ export default function RootLayout({
         <html lang="kr">
         <head>
             <title title="Sfer's Devlog"></title>
-            <link rel="preconnect" href="https://fonts.googleapis.com" />
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-            <link href="https://fonts.googleapis.com/css2?family=Gasoek+One&family=Jua&family=Marck+Script&family=Noto+Sans+KR:wght@600&family=Poppins&display=swap" rel="stylesheet" />
+            <link rel="preconnect" href="https://fonts.googleapis.com"/>
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous"/>
+            <link
+                href="https://fonts.googleapis.com/css2?family=Gasoek+One&family=Noto+Sans+KR:wght@100..900&display=swap"
+                rel="stylesheet"/>
         </head>
         <body className={inter.className}>
-            {children}
+        {children}
         </body>
         </html>
     );

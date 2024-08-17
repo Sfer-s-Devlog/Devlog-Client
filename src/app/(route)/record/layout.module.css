@@ -1,5 +1,10 @@
+.entireWrapper {
+    display: flex;
+    flex-direction: row;
+}
+
 .sideBarWrapper {
-    position: relative;
+    position: absolute;
     width: 280px;
     height: 100vh;
 
@@ -9,4 +14,12 @@
 
 .sideBarWrapper.closed {
     transform: translateX(-100%);
+}
+
+.childrenWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
 }

@@ -13,7 +13,7 @@ export default function RecordLayout({ children }: Readonly<{ children: React.Re
     }
 
     return (
-        <>
+        <div className={styles.entireWrapper}>
             <div className={`${styles.sideBarWrapper} ${isOpen? '' : styles.closed}`}>
                 <RecordSideBar profileId="sfer7" boardTitle="개발 기록"/>
                 <SideToggleButton
@@ -21,7 +21,9 @@ export default function RecordLayout({ children }: Readonly<{ children: React.Re
                     onClick={onClick}
                 />
             </div>
-            {children}
-        </>
+            <div className={styles.childrenWrapper}>
+                {children}
+            </div>
+        </div>
     )
 }
