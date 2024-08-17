@@ -1,0 +1,15 @@
+.entireWrapper {
+    display: flex;
+    position: absolute;
+
+    border-right: 1px solid lightgray;
+
+    left: 0;
+    top: 0;
+
+    width: 280px;
+    height: 100vh;
+
+    background-color: white;
+    z-index: 100;
+}

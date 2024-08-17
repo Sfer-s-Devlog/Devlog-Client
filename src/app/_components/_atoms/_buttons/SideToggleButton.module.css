@@ -1,0 +1,20 @@
+.sideToggleButton {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+
+    position: absolute;
+
+    background-color: white;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    top: 50%;
+    right: -6%;
+
+    width: 20px;
+    height: 45px;
+
+    cursor: pointer;
+    z-index: 0;
+}
