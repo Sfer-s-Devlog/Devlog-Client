@@ -10,11 +10,7 @@ interface SearchInputProps {
 
 }
 
-const TextInput: React.FC<SearchInputProps> = ({
-                                                   placeholder = "",
-                                                   name,
-                                                   register,
-                                                   required}) => {
+const TextInput: React.FC<SearchInputProps> = ({placeholder = "", name, register, required}) => {
     return (
         <input
             className={styles.textInput}

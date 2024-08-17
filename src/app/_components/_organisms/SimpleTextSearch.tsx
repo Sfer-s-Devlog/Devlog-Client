@@ -7,10 +7,11 @@ import TextInput from "@/app/_components/_atoms/_inputs/TextInput";
 import SubmitButton from "@/app/_components/_atoms/_buttons/SubmitButton";
 
 interface SimpleTextSearchProps {
+    width: string;
     onSubmit: (data: Record<string, any>) => void;
 }
 
-const SimpleTextSearch: React.FC<SimpleTextSearchProps> = ({ onSubmit }) => {
+const SimpleTextSearch: React.FC<SimpleTextSearchProps> = ({ width, onSubmit }) => {
     const { register, handleSubmit } = useForm();
     const formRef = useRef<HTMLFormElement | null>(null);
 
@@ -23,7 +24,7 @@ const SimpleTextSearch: React.FC<SimpleTextSearchProps> = ({ onSubmit }) => {
             <form
                 ref={formRef}
                 onSubmit={handleSubmit(onSubmit)}
-                style={{width: "230px"}}>
+                style={{width: width}}>
                 <TextInput
                     name="keyword"
                     register={register}

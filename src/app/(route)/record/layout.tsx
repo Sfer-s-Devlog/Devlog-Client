@@ -15,7 +15,7 @@ export default function RecordLayout({ children }: Readonly<{ children: React.Re
     return (
         <>
             <div className={`${styles.sideBarWrapper} ${isOpen? '' : styles.closed}`}>
-                <RecordSideBar isOpen={isOpen}/>
+                <RecordSideBar profileId="sfer7" boardTitle="개발 기록"/>
                 <SideToggleButton
                     backgroundImage="/assets/icons/right.svg"
                     onClick={onClick}

@@ -1,6 +1,8 @@
 .entireWrapper {
     display: flex;
+    flex-direction: column;
     position: absolute;
+    align-items: center;
 
     border-right: 1px solid lightgray;
 
@@ -10,6 +12,50 @@
     width: 280px;
     height: 100vh;
 
+    padding: 10px;
+
     background-color: white;
     z-index: 100;
+}
+
+.profileWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: fit-content;
+
+    margin-top: 100px;
+    margin-bottom: 30px;
+
+    gap: 5px;
+}
+
+.profileId {
+    font-size: 20px;
+    color: slategray;
+}
+
+.boardTitle {
+    font-size: 14px;
+    color: slategray;
+}
+
+.categoryWrapper {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.categoryTitle {
+    display: flex;
+    text-align: left;
+    align-items: flex-start;
+    font-size: 14px;
+    color: slategray;
+
+    width: 100%;
+    height: fit-content;
 }
