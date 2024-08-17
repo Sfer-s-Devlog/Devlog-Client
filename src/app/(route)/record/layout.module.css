@@ -1,0 +1,12 @@
+.sideBarWrapper {
+    position: relative;
+    width: 280px;
+    height: 100vh;
+
+    transform: translateX(0%);
+    transition: transform 0.6s ease;
+}
+
+.sideBarWrapper.closed {
+    transform: translateX(-100%);
+}
