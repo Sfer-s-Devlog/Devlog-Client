@@ -1,6 +1,6 @@
 import styles from "./RecordTextEditor.module.css"
 import React, {useEffect, useState} from 'react'
-import {Editor, EditorState, RichUtils, DraftEditorCommand, DraftHandleValue, KeyBindingUtil, getDefaultKeyBinding} from 'draft-js'
+import {Editor, EditorState, RichUtils, DraftEditorCommand, DraftHandleValue} from 'draft-js'
 import 'draft-js/dist/Draft.css'
 
 const RecordTextEditor = () => {
@@ -11,16 +11,6 @@ const RecordTextEditor = () => {
     }, []);
 
     const [editorState, setEditorState] = useState<EditorState | null>(null);
-
-    const keyBindingFn = (e: React.KeyboardEvent): DraftEditorCommand | null => {
-        if(e.key === 'b' && KeyBindingUtil.hasCommandModifier(e)) {
-            return 'bold';
-        }
-        if(e.key === 'i' && KeyBindingUtil.hasCommandModifier(e)) {
-            return 'italic';
-        }
-        return getDefaultKeyBinding(e);
-    }
 
     const hashKeyCommand = (
         command: DraftEditorCommand,
@@ -45,7 +35,6 @@ const RecordTextEditor = () => {
                     editorState={editorState}
                     onChange={setEditorState}
                     handleKeyCommand={hashKeyCommand}
-                    keyBindingFn={keyBindingFn}
                 />
             </div>
 
