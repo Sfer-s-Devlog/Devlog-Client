@@ -1,0 +1,67 @@
+.tiptap {
+    min-height: 80vh !important;
+
+    &:focus {
+        outline: none !important;
+    }
+
+    blockquote {
+        border-left: 3px solid lightgray !important;
+        margin: 15px 0 0 10px !important;
+        padding: 5px 0 5px 10px !important;
+    }
+
+    ul,
+    ol {
+        padding-left: 20px !important;
+        margin: 0 10px 0 4px !important;
+    }
+
+    hr {
+        border: none !important;
+        border-top: 1px solid lightgray !important;
+        cursor: pointer !important;
+        margin: 20px 0 !important;
+
+        &.ProseMirror-selectednode {
+            border-top: 1px solid black !important;
+        }
+    }
+
+    code {
+        background-color: rgba(135,131,120,.15) !important;
+        border-radius: 5px !important;
+        color: #EB5757 !important;
+    }
+
+    .codeBlock {
+        position: relative !important;
+
+        select {
+            display: flex;
+            position: absolute !important;
+
+            background-color: transparent !important;
+            color: slategray !important;
+            top: 8px !important;
+            left: 15px !important;
+
+            border: none !important;
+        }
+    }
+
+    pre {
+        background: rgb(247, 246, 243) !important;
+        border-radius: 5px !important;
+        color: inherit !important;
+        margin: 15px 10px !important;
+        padding: 50px 10px 10px 10px !important;
+        tab-size: 8 !important;
+
+        code {
+            background: none !important;
+            color: inherit !important;
+            padding: 0 !important;
+        }
+    }
+}

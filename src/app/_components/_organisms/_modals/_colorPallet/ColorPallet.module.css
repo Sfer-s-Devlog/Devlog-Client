@@ -1,0 +1,21 @@
+.entireWrapper {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+
+    width: fit-content;
+    height: fit-content;
+
+    padding: 5px;
+
+    border: 1px solid lightgray;
+    background-color: white;
+    z-index: 500;
+}
+
+.palletGrid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 5px;
+}

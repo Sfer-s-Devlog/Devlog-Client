@@ -7,16 +7,18 @@ interface SearchInputProps {
     register: UseFormRegister<any>;
     required?: boolean;
     placeholder?: string;
-
+    url?: string;
 }
 
-const TextInput: React.FC<SearchInputProps> = ({placeholder = "", name, register, required}) => {
+const TextInput: React.FC<SearchInputProps> = ({placeholder = "", name, register, required, url}) => {
+
     return (
         <input
             className={styles.textInput}
             type="text"
+            defaultValue={url}
             placeholder={`${placeholder}`}
-            {...register(name, { required })}/>
+            {...register(name, { required })} />
     )
 }
 

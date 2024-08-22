@@ -1,0 +1,18 @@
+.textButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid lightgray;
+    border-radius: 21px;
+    background-color: white;
+
+    color: black;
+    font-size: 13px;
+    font-family: "Noto Sans KR", sans-serif;
+
+    width: 76px;
+    height: 30px;
+
+    cursor: pointer;
+}

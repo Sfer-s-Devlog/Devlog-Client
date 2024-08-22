@@ -1,0 +1,353 @@
+.entireWrapper {
+    max-width: 100vw;
+    height: fit-content;
+
+    border-bottom: 1px solid lightgray;
+}
+
+.menuWrapper {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    width: 100vw;
+    max-width: 100vw;
+
+    border-bottom: 1px solid lightgray;
+
+    padding: 15px 0;
+}
+
+.headingGroup {
+    display: flex;
+
+    width: fit-content;
+
+    padding: 0 7px;
+
+    gap: 1px;
+}
+
+.heading {
+    width: 30px;
+    height: 30px;
+
+    border: none;
+    border-radius: 6px;
+
+    background-color: white;
+    background-position: center;
+    background-size: initial;
+    background-repeat: no-repeat;
+    background-image: url("/assets/icons/tiptap/heading.svg");
+
+    cursor: pointer;
+}
+
+.textButtonGroup {
+    display: flex;
+
+    width: fit-content;
+
+    padding: 0 7px;
+
+    border-left: 1px solid lightgray;
+
+    gap: 1px;
+}
+
+.bold {
+    width: 30px;
+    height: 30px;
+
+    border: none;
+    border-radius: 6px;
+
+    background-color: white;
+    background-position: center;
+    background-size: initial;
+    background-repeat: no-repeat;
+    background-image: url("/assets/icons/tiptap/bold.svg");
+
+    cursor: pointer;
+}
+
+.italic {
+    width: 30px;
+    height: 30px;
+
+    border: none;
+    border-radius: 6px;
+
+    background-color: white;
+    background-position: center;
+    background-size: initial;
+    background-repeat: no-repeat;
+    background-image: url("/assets/icons/tiptap/italic.svg");
+
+    cursor: pointer;
+}
+
+.underline {
+    width: 30px;
+    height: 30px;
+
+    border: none;
+    border-radius: 6px;
+
+    background-color: white;
+    background-position: center;
+    background-size: initial;
+    background-repeat: no-repeat;
+    background-image: url("/assets/icons/tiptap/underline.svg");
+
+    cursor: pointer;
+}
+
+.strike {
+    width: 30px;
+    height: 30px;
+
+    border: none;
+    border-radius: 6px;
+
+    background-color: white;
+    background-position: center;
+    background-size: initial;
+    background-repeat: no-repeat;
+    background-image: url("/assets/icons/tiptap/strike.svg");
+
+    cursor: pointer;
+}
+
+.fontColor {
+    width: 30px;
+    height: 30px;
+
+    border: none;
+    border-radius: 6px;
+
+    background-color: white;
+    background-position: center;
+    background-size: initial;
+    background-repeat: no-repeat;
+    background-image: url("/assets/icons/tiptap/textColor.svg");
+
+    cursor: pointer;
+}
+
+.highlight {
+    width: 30px;
+    height: 30px;
+
+    border: none;
+    border-radius: 6px;
+
+    background-color: white;
+    background-position: center;
+    background-size: initial;
+    background-repeat: no-repeat;
+    background-image: url("/assets/icons/tiptap/highlight.svg");
+
+    cursor: pointer;
+}
+
+.alignButtonGroup {
+    display: flex;
+
+    width: fit-content;
+
+    padding: 0 7px;
+
+    border-left: 1px solid lightgray;
+
+    gap: 1px;
+}
+
+.alignLeft {
+    width: 30px;
+    height: 30px;
+
+    border: none;
+    border-radius: 6px;
+
+    background-color: white;
+    background-position: center;
+    background-size: initial;
+    background-repeat: no-repeat;
+    background-image: url("/assets/icons/tiptap/alignLeft.svg");
+
+    cursor: pointer;
+}
+
+.alignCenter {
+    width: 30px;
+    height: 30px;
+
+    border: none;
+    border-radius: 6px;
+
+    background-color: white;
+    background-position: center;
+    background-size: initial;
+    background-repeat: no-repeat;
+    background-image: url("/assets/icons/tiptap/alignCenter.svg");
+
+    cursor: pointer;
+}
+
+.alignRight {
+    width: 30px;
+    height: 30px;
+
+    border: none;
+    border-radius: 6px;
+
+    background-color: white;
+    background-position: center;
+    background-size: initial;
+    background-repeat: no-repeat;
+    background-image: url("/assets/icons/tiptap/alignRight.svg");
+
+    cursor: pointer;
+}
+
+.alignJustify {
+    width: 30px;
+    height: 30px;
+
+    border: none;
+    border-radius: 6px;
+
+    background-color: white;
+    background-position: center;
+    background-size: initial;
+    background-repeat: no-repeat;
+    background-image: url("/assets/icons/tiptap/alignJustify.svg");
+
+    cursor: pointer;
+}
+
+.extensionButtonGroup {
+    display: flex;
+
+    width: fit-content;
+
+    padding: 0 7px;
+
+    border-left: 1px solid lightgray;
+
+    gap: 1px;
+}
+
+.blockquote {
+    width: 30px;
+    height: 30px;
+
+    border: none;
+    border-radius: 6px;
+
+    background-color: white;
+    background-position: center;
+    background-size: initial;
+    background-repeat: no-repeat;
+    background-image: url("/assets/icons/tiptap/blockquote.svg");
+
+    cursor: pointer;
+}
+
+.link {
+    width: 30px;
+    height: 30px;
+
+    border: none;
+    border-radius: 6px;
+
+    background-color: white;
+    background-position: center;
+    background-size: initial;
+    background-repeat: no-repeat;
+    background-image: url("/assets/icons/tiptap/link.svg");
+
+    cursor: pointer;
+}
+
+.bulletList {
+    width: 30px;
+    height: 30px;
+
+    border: none;
+    border-radius: 6px;
+
+    background-color: white;
+    background-position: center;
+    background-size: initial;
+    background-repeat: no-repeat;
+    background-image: url("/assets/icons/tiptap/bulletList.svg");
+
+    cursor: pointer;
+}
+
+.orderedList {
+    width: 30px;
+    height: 30px;
+
+    border: none;
+    border-radius: 6px;
+
+    background-color: white;
+    background-position: center;
+    background-size: initial;
+    background-repeat: no-repeat;
+    background-image: url("/assets/icons/tiptap/orderedList.svg");
+
+    cursor: pointer;
+}
+
+.horizontalRule {
+    width: 30px;
+    height: 30px;
+
+    border: none;
+    border-radius: 6px;
+
+    background-color: white;
+    background-position: center;
+    background-size: initial;
+    background-repeat: no-repeat;
+    background-image: url("/assets/icons/tiptap/horizontalRule.svg");
+
+    cursor: pointer;
+}
+
+.code {
+    width: 30px;
+    height: 30px;
+
+    border: none;
+    border-radius: 6px;
+
+    background-color: white;
+    background-position: center;
+    background-size: initial;
+    background-repeat: no-repeat;
+    background-image: url("/assets/icons/tiptap/code.svg");
+
+    cursor: pointer;
+}
+
+.codeBlock {
+    width: 30px;
+    height: 30px;
+
+    border: none;
+    border-radius: 6px;
+
+    background-color: white;
+    background-position: center;
+    background-size: initial;
+    background-repeat: no-repeat;
+    background-image: url("/assets/icons/tiptap/codeBlock.svg");
+
+    cursor: pointer;
+}

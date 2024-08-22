@@ -1,0 +1,38 @@
+.entireWrapper {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+
+    width: 150px;
+    height: 200px;
+    padding: 20px 0;
+
+    background-color: white;
+    border: 1px solid lightgray;
+}
+
+.headingButtonWrapper {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+
+    gap: 10px;
+}
+
+.headingButton {
+    width: 100%;
+
+    font-weight: bold;
+
+
+    border: none;
+    background-color: transparent;
+
+    cursor: pointer;
+
+    &:hover {
+        background-color: #DDDDDD;
+    }
+}
