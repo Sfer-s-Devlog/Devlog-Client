@@ -26,9 +26,9 @@ const ColorPallet = forwardRef<HTMLDivElement, ColorPalletProps>(({onColorUnset,
             style={{top: position.top, left: position.left}}
             ref={ref}>
             <div className={styles.palletGrid}>
-                <ColorPalletButton key={0} colorCode="none" onClick={onColorUnset}/>
+                <ColorPalletButton index={0} colorCode="none" onClick={onColorUnset}/>
                 {colors.map((color, index) => (
-                    <ColorPalletButton key={index + 1} colorCode={color} onClick={() => onColorSelect(color)}/>
+                    <ColorPalletButton index={index + 1} colorCode={color} onClick={() => onColorSelect(color)}/>
                 ))}
             </div>
         </div>, document.body);

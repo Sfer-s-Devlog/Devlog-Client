@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./ColorPalletButton.module.css"
 
 interface ColorPalletButtonProps {
-    key: number,
+    index: number,
     colorCode: string | "none",
     onClick: () => void;
 }
